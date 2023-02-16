@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border: 1;
+  background-color: rgb(209, 235, 175);
+}
+
+form {
+  background-color: bisque;
+}
+
+ul {
+  background-color: rgb(203, 224, 242);
+}
+
+img {
+  width: 150px;
+  height: 200px;
+}

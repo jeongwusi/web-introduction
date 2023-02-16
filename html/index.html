@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>🦢고니의 자기소개</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <header>
+        <h1>자기소개</h1>
+      </header>
+      <section>
+        <ul>
+          <li>이름: 고니</li>
+          <li>사는 곳: 서울특별시</li>
+          <li>
+            안녕하세요. 저는 고니입니다. 만나서 반갑습니다. 제가 제일 좋아하는
+            영화는 쇼생크 탈출입니다.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h1>인생 영화 BEST5</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>순위</th>
+              <th>제목</th>
+              <th>포스터</th>
+              <th>시놉시스</th>
+              <th>바로가기</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span>1</span></td>
+              <td><span>쇼생크 탈출</span></td>
+              <td>
+                <img
+                  class="poster"
+                  src="http://t1.daumcdn.net/movie/69088b7e31ce05679ebab1681fda7fc0e8030e33"
+                  alt="movie poster"
+                />
+              </td>
+              <td>
+                <p>두려움은 너를 죄수로 가두고 희망은 너를 자유롭게 하리라</p>
+              </td>
+              <td>
+                <a href="https://movie.daum.net/moviedb/main?movieId=1368#"
+                  >클릭</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td><span>2</span></td>
+              <td><span>라라랜드</span></td>
+              <td>
+                <img
+                  class="poster"
+                  src="https://t1.daumcdn.net/movie/0e371de6f342a66143c49af3dd2b204342bbb5aa"
+                  alt="movie poster"
+                />
+              </td>
+              <td>
+                <p>
+                  인생에서 가장 빛나는 순간 만난 두 사람은 미완성인 서로의
+                  무대를 만들어가기 시작한다.
+                </p>
+              </td>
+              <td>
+                <a href="https://movie.daum.net/moviedb/main?movieId=95306"
+                  >클릭</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td><span>3</span></td>
+              <td><span>더 퍼스트 슬램덩크</span></td>
+              <td>
+                <img
+                  class="poster"
+                  src="https://t1.daumcdn.net/movie/a0aaca4b87c541b11085139bd941da0996a78ec1"
+                  alt="movie poster"
+                />
+              </td>
+              <td>
+                <p>
+                  전국 제패를 꿈꾸는 북산고 농구부 5인방의 꿈과 열정, 멈추지
+                  않는 도전을 그린 영화
+                </p>
+              </td>
+              <td>
+                <a href="https://movie.daum.net/moviedb/main?movieId=164918"
+                  >클릭</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td></span>4</span></td>
+              <td></span>애프터썬</span></td>
+              <td><img
+                class="poster"
+                src="https://t1.daumcdn.net/movie/2a0fde051fcf8a668226d9fa47b330856db5250c"
+                alt="movie poster"
+              /></td>
+              <td><p>아빠와 20여 년 전 갔던 튀르키예 여행. 둘만의 기억이 담긴 오래된 캠코더를 꺼내자 그해 여름이 물결처럼 출렁이기 시작한다.</p></td>
+              <td><a href="https://movie.daum.net/moviedb/main?movieId=161354"
+                >클릭</a
+              ></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>헌트</td>
+              <td><img
+                class="poster"
+                src="https://t1.daumcdn.net/movie/02ef8515570b2950e9f24d663cae807e7f40b5f2"
+                alt="movie poster"
+              /></td>
+              <td><p>하나의 목표, 두 개의 총구
+                의심과 경계 속 두 남자의 신념을 건 작전이 시작된다
+                </p></td>
+              <td><a href="https://movie.daum.net/moviedb/main?movieId=143289"
+                >클릭</a
+              ></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h1>방명록</h1>
+        <form class="form">
+          <label>이름:</label>
+          <input type="text" name="name" class="inputName"><br>
+          <span>본인 취향 영화</span><br>
+          <input type="checkbox" name="movie" class="movieTitle">
+          <label>쇼생크 탈출</label>
+          <input type="checkbox" name="movie" class="movieTitle">
+          <label>라라랜드</label>
+          <input type="checkbox" name="movie" class="movieTitle">
+          <label>더 퍼스트 슬램덩크</label>
+          <input type="checkbox" name="movie" class="movieTitle">
+          <label>애프터썬</label>
+          <input type="checkbox" name="movie" class="movieTitle">
+          <label>헌트</label>
+          <button class="enrollment">등록</button>
+          <button type="reset">취소</button>
+        </form>
+      </section>
+    </div>
+    <script type="module" src="../js/index.js"></script>
+  </body>
+</html>
